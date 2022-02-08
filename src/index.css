@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
+    padding-left: 1%;
+    padding-right: 2%;
 
 }
 header{
@@ -38,7 +39,7 @@ ul a {
 .section1{
     background-color:rgb(206,214,192);
     margin-top: 0;
-    padding-left:20px ;
+    padding-left:10px ;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -66,8 +67,8 @@ ul a {
 
 .div1{
     float: left;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 2%;
+    margin-left: 1%;
     width: 27%;
     height: 20%;
     text-align: center;
@@ -139,16 +140,21 @@ footer{
 
 }
 
-.left_para{
-    padding-left: 20px;
+.divf1{
     float: left;
+    width: 30%;
+
+
 }
 
-.right_para{
+.divf2{
+    padding-left: 20px;
+    width: 20%;
+
     float: right;
 }
 
-
 .text-field{
+    padding-right: 5%;
     font-size: large;
 }
