@@ -13,6 +13,7 @@ header h1 {
   float: left;
   width: 30%;
   padding-left: 20px;
+  margin-left: -13px;
 }
 li {
   float: right;
@@ -29,8 +30,8 @@ ul a {
 }
 
 .section1 {
-  background-color: rgb(206, 214, 192);
-  margin-top: 0;
+  background-color: #EEEEEE;
+  margin-top: -16px;
   padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -46,6 +47,8 @@ ul a {
 }
 .button1 {
   margin-bottom: 20px;
+  margin-left: 15px;
+  padding-right: 10px;
 }
 .section2 {
   /* background-color: hotpink; */
@@ -63,22 +66,35 @@ ul a {
 }
 
 .p2 {
-  color: rgb(206, 214, 192);
-  background-color: rgb(206, 214, 192);
+  color: #EEEEEE;
+  background-color: #EEEEEE;
   padding: 10% 2% 15% 2%;
   margin-top: 25px;
+  height: 92px;
+  margin-right: -29px;
+  margin-left: 23px;
 }
 
-p3 {
+.p3 {
   margin: 2% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+}
+
+.p4{
+  margin-left: 44px;
+}
+.a1{
+  margin-left: 44px;
 }
 
 .section3 {
+  margin-top: 143px;
   padding-top: 2%;
   padding-bottom: 2%;
 
   float: left;
-  background-color: rgb(206, 214, 192);
+  background-color: #EEEEEE;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -87,13 +103,18 @@ p3 {
   padding-right: 2%;
   font-weight: bold;
   font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button2 {
-  font-size: large;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: blue;
+  font-size: small;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 80px;
+  background-color: #288ACF;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -114,6 +135,9 @@ footer {
   width: 20%;
 
   float: right;
+}
+.fpara{
+  padding-left: 72px;
 }
 
 .text-field {
